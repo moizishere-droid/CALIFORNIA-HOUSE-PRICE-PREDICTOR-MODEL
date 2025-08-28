@@ -40,7 +40,7 @@ with col2:
         st.success(f"🏠 Estimated Median House Value: **${prediction * 100000:,.2f}**")
 
         # Show house image
-        st.image("/content/moiz1.jpg", width=300)
+        st.image("moiz1.jpg", width=300)
 
         # Fun animations
         st.balloons()
